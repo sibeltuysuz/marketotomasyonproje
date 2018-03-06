@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="df06e03a19554ff9b6eca3b769b2cace" Name="Diagram1">
+        <EntityTypeShape EntityType="supermarketModel.Category" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="supermarketModel.Customer" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="supermarketModel.OrderDetail" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="supermarketModel.Order" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="supermarketModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="supermarketModel.Supplier" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="supermarketModel.sysdiagram" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="supermarketModel.FK__Products__Catego__08B54D69" ManuallyRouted="false" />
+        <AssociationConnector Association="supermarketModel.FK__Orders__Descript__0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="supermarketModel.FK__OrderDeta__Produ__123EB7A3" ManuallyRouted="false" />
+        <AssociationConnector Association="supermarketModel.FK__OrderDeta__Quant__114A936A" ManuallyRouted="false" />
+        <AssociationConnector Association="supermarketModel.FK__Products__Compan__09A971A2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
